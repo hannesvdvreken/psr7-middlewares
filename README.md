@@ -48,7 +48,7 @@ $stack = Stack::create([$session, $throttle, $app]);
 The Stack object itself is also a Core middleware, so it can be used in a different composition of middlewares.
 This is how you can send a Request object through the different layers of middlewares:
 
-```
+```php
 $psrResponse = $stack->handle($psrRequest);
 ```
 
