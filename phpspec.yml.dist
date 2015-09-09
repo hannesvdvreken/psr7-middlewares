@@ -1,0 +1,16 @@
+suites:
+    Psr7Stack:
+        namespace: Psr7Stack
+        psr4_prefix: Psr7Stack
+        src_path: src/
+        spec_path: tests/specs
+        spec_prefix: ""
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+    format:
+        - html
+        - clover
+    output:
+        html: build/coverage
+        clover: build/coverage.xml
