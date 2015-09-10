@@ -4,7 +4,7 @@
 Create callable middlewares instead. Signature:
 
 ```php
-function (RequestInterface $request, ResponseInterface $response $next) {
+function (RequestInterface $request, ResponseInterface $response, callable $next) {
     // Do something with the request before passing it on.
     ...
 
