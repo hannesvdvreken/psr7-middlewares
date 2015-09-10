@@ -1,3 +1,24 @@
+
+**No longer maintained**
+
+Create callable middlewares instead. Signature:
+
+```php
+function (RequestInterface $request, ResponseInterface $response $next) {
+    // Do something with the request before passing it on.
+    ...
+
+    // Pass on to next middleware.
+    $response = $next($request, $response);
+
+    // Do something with the response after the next middleware has been called.
+    ...
+
+    // Return ultimate response object.
+    return $response;
+}
+```
+
 # PSR-7 middlewares
 
 [![Latest Version](https://img.shields.io/github/release/hannesvdvreken/psr7-middlewares.svg?style=flat-square)](https://github.com/hannesvdvreken/psr7-middlewares/releases)
