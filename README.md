@@ -1,5 +1,11 @@
 # PSR-7 middlewares
 
+[![Latest Version](https://img.shields.io/github/release/hannesvdvreken/psr7-middlewares.svg?style=flat-square)](https://github.com/hannesvdvreken/psr7-middlewares/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Build Status](https://img.shields.io/travis/hannesvdvreken/psr7-middlewares/master.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/psr7-middlewares)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/psr7-middlewares.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/psr7-middlewares/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/hannesvdvreken/psr7-middlewares.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/psr7-middlewares)
+
 Stackable middlewares for PSR-7 HTTP message objects.
 
 ## Installation
